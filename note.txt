@@ -1,0 +1,3 @@
+docker cp expensetracker_db.sql pg12:/ # to copy the file to pg container
+
+psql -U postgres --file expensetracker_db.sql # ran from the contianer
